@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(82,0,235),rgb(255,4,242));
+}
+
+.container.fondo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/fondo.gif);
+    background-size: cover;
+}
+
+.carta{
+    height: 342px;
+    width: 245px;
+    background-image: url(img/bardoks.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+}
+
+.carta.super{
+    height: 342px;
+    width: 245px;
+    background-image: url(img/bardoc\ ssj.png);
+    background-size: cover;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+}
